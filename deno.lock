@@ -1,0 +1,17 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:dns-packet@*": "5.6.1"
+  },
+  "npm": {
+    "@leichtgewicht/ip-codec@2.0.5": {
+      "integrity": "sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw=="
+    },
+    "dns-packet@5.6.1": {
+      "integrity": "sha512-l4gcSouhcgIKRvyy99RNVOgxXiicE+2jZoNmaNmZ6JXiGajBOJAesk1OBlJuM5k2c+eudGdLxDqXuPCKIj6kpw==",
+      "dependencies": [
+        "@leichtgewicht/ip-codec"
+      ]
+    }
+  }
+}
